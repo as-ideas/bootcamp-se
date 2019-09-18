@@ -1,0 +1,22 @@
+{
+  "name": "bootcamp-se",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/co0p/bootcamp-se.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/co0p/bootcamp-se/issues"
+  },
+  "homepage": "https://github.com/co0p/bootcamp-se#readme",
+  "dependencies": {
+    "cypress": "^3.4.1"
+  }
+}
