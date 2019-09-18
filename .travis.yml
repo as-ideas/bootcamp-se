@@ -13,6 +13,8 @@ cache:
   directories:
     # we also need to cache folder with Cypress binary
     - ~/.cache
+env:
+  - CYPRESS_PROJECT_ID=oa2Hoo
 install:
   - npm ci
 script:
