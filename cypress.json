@@ -1,2 +1,4 @@
 {
-  }
+  "projectId": "bootcamp_se",
+  "defaultCommandTimeout": 1000
+}
