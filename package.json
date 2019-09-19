@@ -7,7 +7,6 @@
     "start": "parcel src/index.html",
     "test": "cypress run",
     "ci": "npm start & wait-on http://localhost:1234 & npm test"
-
   },
   "repository": {
     "type": "git",
@@ -21,6 +20,7 @@
   "homepage": "https://github.com/co0p/bootcamp-se#readme",
   "dependencies": {
     "cypress": "^3.4.1",
-    "parcel": "^1.12.3"
+    "parcel": "^1.12.3",
+    "wait-on": "^3.3.0"
   }
 }
