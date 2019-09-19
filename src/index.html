@@ -7,36 +7,7 @@
     <title>ROT13</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-
-    <script>
-
-        function rot13_encode(input) {
-            return "this is the encoded value of " + input
-        }
-
-        function rot13_decode(input) {
-            return "this is the decoded value of " + input
-        }
-
-
-        function encode() {
-            var content = document.getElementById("input_encode").value;
-            var output = rot13_encode(content);
-            document.getElementById("input_decode").value = output;
-        }
-
-        function decode() {
-            var content = document.getElementById("input_decode").value;
-            var output = rot13_decode(content);
-            document.getElementById("input_encode").value = output;
-        }
-
-        function clearInputs() {
-            document.getElementById("input_decode").value = '';
-            document.getElementById("input_encode").value = '';
-        }
-
-    </script>
+    <script src="index.js"></script>
 
 </head>
 
@@ -60,15 +31,15 @@
             <div class="column">
                 <center>
                     <button id="encode" onclick="encode()" class="button">
-                        ENCODE ->
+                        ENCODE >>
                     </button>
                     <br />
                     <br />
                     <button id="decode" onclick="decode()" class="button">
-                        <- DECODE </button> <br />
+                        << DECODE </button> <br />
                         <br />
                         <button id="clear" onclick="clearInputs()" class="button">
-                            CLEAR
+                            << CLEAR>>
                         </button>
                 </center>
             </div>

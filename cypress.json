@@ -1,4 +1,5 @@
 {
   "projectId": "oa2Hoo",
-  "defaultCommandTimeout": 1000
+  "defaultCommandTimeout": 2000,
+  "baseUrl": "http://localhost:1234"
 }
