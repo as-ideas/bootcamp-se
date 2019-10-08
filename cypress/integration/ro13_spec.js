@@ -9,7 +9,7 @@ describe('ROT13 Website', function () {
 
         cy.get('#encode').click()
 
-        cy.get('#input_decode').should('equal', expected)
+        cy.get('#input_decode').should('be', expected)
     })
 
     it('allows to decode text using rot13', function () {
@@ -21,6 +21,6 @@ describe('ROT13 Website', function () {
 
         cy.get('#decode').click()
 
-        cy.get('#input_encode').should('equal', expected)
+        cy.get('#input_encode').should('be', expected)
     })
 })
