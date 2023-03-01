@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/co0p/bootcamp-se#readme",
   "dependencies": {
-    "cypress": "^3.4.1",
+    "cypress": "^12.7.0",
     "parcel": "^1.12.3",
     "wait-on": "^3.3.0"
   }
